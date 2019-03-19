@@ -1,0 +1,273 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Globalne style tekstu*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	line-height: 1.7;
+	background-color: #DDDDDD;
+}
+
+p {
+	margin-top: 7px;
+}
+
+h1, h2, h3, label {
+	color: #222222;
+}
+
+h1 {
+	font-size: 25px;
+	line-height: 1.8;
+}
+
+h2 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+strong {
+	font-weight: 600;
+}
+
+/*Naglowek*/
+
+a {
+	text-decoration: none;
+	color: #DDDDDD;
+}
+
+.header {
+	height: 50px;
+	background: #222222;
+	padding-bottom: 0;
+}
+
+.logo {
+	font-size: 37px;
+	float: left;
+	line-height: 50px;
+}
+
+.menu {
+	float: right;
+}
+
+.menu li {
+	float: left;
+	padding: 0 10px;
+	text-transform: uppercase;
+	line-height: 50px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+
+
+
+/*Kolumny, kontener, sekcja*/
+
+.ikona {
+	width: 170px;
+	height: 170px;
+	padding-bottom: 10px;
+}
+
+
+.col_1-3, .help_col_1-2, .form_col_1-2{
+	width: 100%;
+	float: none;
+}
+
+@media screen and (min-width: 900px) {
+	.col_1-3 {
+	width: 33.33333%;
+	float: left;
+	margin: 0 auto;
+	}
+
+	.help_col_1-2, .form_col_1-2 {
+	width: 50%;
+	float: left;
+	}
+}
+
+section {
+	clear: both;
+	padding: 20px 0;
+	overflow: auto;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.center-text {
+	text-align: center;
+}
+
+
+/*Przyciski*/
+
+.button {
+	display: inline-block;
+	padding: 3px 13px;
+	margin: 10px 0;
+	border: none;
+	border-radius: 5px;
+}
+
+.button-dark {
+	background: #333333;
+	color: #FFFFFF;
+
+}
+
+.banner .button-light { 
+	background: #FFFFFF;
+	color: #333333;
+	margin: 10px 0;
+}
+
+/*Baner*/
+
+
+.banner {
+	background: url("../image/toop.jpg") -620px -300px; 
+	padding-top: 300px;
+}
+
+/*Stopka*/
+.footer {
+	background: #222222;
+	color: #DDDDDD;
+	font-size: 15px;
+	padding: 5px 0;
+}
+
+/*Promocja*/
+
+.promo {
+
+}
+
+/*Pomoc*/
+
+.help {
+	background: #555555;
+	color: #DDDDDD;
+}
+.help h1 {
+	color: #DDDDDD;
+}
+
+.help .ans {
+	font-size: 98px;
+	color: #DDDDDD;
+}
+
+/*Galeria*/
+.gallery {
+	height: 200px;
+}
+
+.thumbnail {
+	margin-top: 15px;
+	padding-left: 6px;
+	width: 170px;
+	height: 170px;
+}
+
+
+/*Empty*/
+
+.empty {
+	height: 30px;
+	background: #555555;
+}
+
+.empty h2 {
+	font-size: 18px;
+	color: #DDDDDD;
+}
+
+/*Zgloszenie*/
+
+.form input {
+	margin-bottom: 8px;
+	border-radius: 2px;
+	border: 1px solid #333333;
+	padding: 5px;
+	width: 50%;
+}
+
+.form .form_col_1-2 {
+	margin-top: 16px;
+}
+
+.contact {
+	margin-top: 25px;
+}
+
+.form_col_1-2 h1 {
+	margin-top: 15px;
+}
+
+.maps a {
+	color: #222222;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.maps {
+	margin-top: 20px;
+}
